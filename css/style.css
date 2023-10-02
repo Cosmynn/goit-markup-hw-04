@@ -407,3 +407,17 @@ body {
   max-width: 100%;
   height: auto;
 }
+/* ---------------------- tema 4--------------------*/
+/* ---------------------- our icons--------------------*/
+.main-section-skil-icon {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.main-section-skil-icon svg {
+  width: 70px;
+  height: 70px;
+  padding: 25px 100px;
+}
+.main-skil {
+  padding-top: 30px;
+}
