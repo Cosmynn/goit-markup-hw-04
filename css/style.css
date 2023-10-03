@@ -516,3 +516,43 @@ body {
   fill: var(--web-color);
   border-color: var(--link-color);
 }
+/* ----------------------footer --------------------*/
+
+.find-us {
+  padding: 75px 0px 96px 70px;
+}
+.find-us {
+  color: #fff;
+  padding: 0px 0px 20px 0px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: auto;
+  letter-spacing: 3%;
+}
+.find-us a {
+  color: transparent;
+}
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+.footer-social-item {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border: 1px solid transparent;
+  background: #434447;
+  border-radius: 100%;
+}
+.find-us svg {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 12px;
+  fill: #fff;
+}
+.footer-social-item:hover {
+  border: 1px solid #2196f3;
+  background-color: #2196f3;
+}
