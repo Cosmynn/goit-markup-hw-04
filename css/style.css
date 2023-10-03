@@ -29,7 +29,7 @@ ul {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.17;
+  line-height: 1.38;
   letter-spacing: 3%;
 }
 .logo-web {
@@ -43,7 +43,7 @@ ul {
 .global-header .main-nav a {
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.14;
+  line-height: 1.17;
   letter-spacing: 2%;
   color: var(--inactive-link);
 }
@@ -55,6 +55,10 @@ ul {
   padding: 32px;
   box-shadow: inset 0px -4px 0px 0px rgba(33, 150, 243, 1);
   position: relative;
+}
+.current:after {
+  position: absolute;
+  border-radius: 0 0 10px 10px;
 }
 .main-nav-ul a:active,
 .main-nav-ul a:hover,
@@ -69,7 +73,7 @@ ul {
 .global-header-contact a[href^="tel"] {
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.14;
+  line-height: 1.17;
   letter-spacing: 2%;
   color: var(--inactive-link2);
 }
@@ -119,8 +123,9 @@ ul {
 .main-skil {
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.14;
+  line-height: 16.41px;
   letter-spacing: 3%;
+  padding-top: 30px;
   color: var(--main-color);
 }
 .main-skil-details {
@@ -133,7 +138,7 @@ ul {
 .main-what-we-do {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 3%;
   text-align: center;
   color: var(--main-color);
@@ -279,15 +284,24 @@ body {
   display: flex;
   justify-content: space-between;
   width: 259px;
-  padding: 0px 385px 0px 0px;
+  padding: 0px 330px 0px 0px;
   margin: 0px;
 }
 .global-header .global-header-contact {
   display: flex;
   justify-content: space-between;
-  /* width: 288px;
-  padding: 0px 215px 0px 0px; */
   margin: 0px;
+  padding: 0px;
+}
+.global-header-container {
+  display: flex;
+  align-items: center;
+  width: 1600px;
+  margin: 0 auto;
+}
+.global-header {
+  border-bottom: 1px;
+  border: 1px solid #ececec;
 }
 /* ---------------------- Main --------------------*/
 .main {
@@ -355,7 +369,7 @@ body {
 
 /* ---------------------- Footer --------------------*/
 .logo-footer {
-  padding: 60px 1240px 28px 215px;
+  padding: 60px 0px 28px 215px;
   margin: 0 auto;
 }
 .global-footer-container ul {
@@ -364,7 +378,7 @@ body {
   justify-content: space-between;
   height: 72px;
   margin: 0px;
-  padding: 0px 1154px 60px 215px;
+  padding: 0px 0px 60px 215px;
   margin: 0 auto;
 }
 /* ---------------------- Portofolio --------------------*/
@@ -502,7 +516,6 @@ body {
   letter-spacing: 3%;
   text-align: center;
   margin: 0 auto;
-  color: var(--main-color);
 }
 .regular-customers ul {
   display: flex;
@@ -536,7 +549,7 @@ body {
 .find-us {
   padding: 75px 0px 96px 70px;
 }
-.find-us {
+.find-us p {
   color: #fff;
   padding: 0px 0px 20px 0px;
   margin: 0;
