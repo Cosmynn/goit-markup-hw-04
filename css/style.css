@@ -442,6 +442,18 @@ body {
   fill: rgba(33, 150, 243, 1);
 }
 /* ---------------------- hero bakeground--------------------*/
+.main {
+  background: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/Img.png");
+  width: 1600px;
+  display: flexbox;
+  justify-content: center;
+  margin: 0 auto;
+}
 /* ---------------------- social media--------------------*/
 .main-our-team-media {
   display: flex;
@@ -517,11 +529,11 @@ body {
   border-color: var(--link-color);
 }
 /* ----------------------footer --------------------*/
-/* .global-footer-footer {
+.global-footer-footer {
   display: flex;
   justify-content: flex-start;
-} */
-/* .find-us {
+}
+.find-us {
   padding: 75px 0px 96px 70px;
 }
 .find-us {
@@ -558,7 +570,7 @@ body {
 .footer-social-item:hover {
   border: 1px solid #2196f3;
   background-color: #2196f3;
-} */
+}
 /* ----------------------buton --------------------*/
 .button-list li button:hover,
 .button-list li button:focus {
