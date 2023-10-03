@@ -517,7 +517,10 @@ body {
   border-color: var(--link-color);
 }
 /* ----------------------footer --------------------*/
-
+.global-footer-footer {
+  display: flex;
+  justify-content: flex-start;
+}
 .find-us {
   padding: 75px 0px 96px 70px;
 }
